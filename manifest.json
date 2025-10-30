@@ -1,0 +1,15 @@
+{
+  "name": "WritersBlock",
+  "short_name": "WB",
+  "start_url": "./wb.html",
+  "display": "fullscreen",
+  "background_color": "#ffffff",
+  "theme_color": "#000000",
+  "icons": [
+    {
+      "src": "wb.ico",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}
