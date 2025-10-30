@@ -1,7 +1,7 @@
 {
   "name": "WritersBlock",
   "short_name": "WB",
-  "start_url": "./wb.html",
+  "start_url": "./wb.htm",
   "display": "fullscreen",
   "background_color": "#ffffff",
   "theme_color": "#000000",
@@ -12,4 +12,5 @@
       "type": "image/png"
     }
   ]
+
 }
