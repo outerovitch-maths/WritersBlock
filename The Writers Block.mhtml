@@ -1,0 +1,229 @@
+From: <Saved by Blink>
+Snapshot-Content-Location: file:///C:/Users/micahb/AppData/Local/Temp/1d66cd03-8c56-4f65-adc7-785fc8a58674_WritersBlock-1.0.3%20(2).zip.674/WritersBlock-1.0.3/wb.htm
+Subject: The Writer's Block
+Date: Thu, 30 Oct 2025 13:20:19 -0500
+MIME-Version: 1.0
+Content-Type: multipart/related;
+	type="text/html";
+	boundary="----MultipartBoundary--eoPWtTaXNvoW5QUeai9xjWYW6S0myT6kFrnjyX2WyI----"
+
+
+------MultipartBoundary--eoPWtTaXNvoW5QUeai9xjWYW6S0myT6kFrnjyX2WyI----
+Content-Type: text/html
+Content-ID: <frame-0734D6E0DD841672E79F3AE2F2FB5AFA@mhtml.blink>
+Content-Transfer-Encoding: quoted-printable
+Content-Location: file:///C:/Users/micahb/AppData/Local/Temp/1d66cd03-8c56-4f65-adc7-785fc8a58674_WritersBlock-1.0.3%20(2).zip.674/WritersBlock-1.0.3/wb.htm
+
+<!DOCTYPE html><html lang=3D"en"><head><meta http-equiv=3D"Content-Type" co=
+ntent=3D"text/html; charset=3DUTF-8"><link rel=3D"stylesheet" type=3D"text/=
+css" href=3D"cid:css-551cd22e-fe41-4326-ac8c-2050d6e5ae6a@mhtml.blink" />
+
+<meta name=3D"viewport" content=3D"width=3Ddevice-width, initial-scale=3D1,=
+ maximum-scale=3D1, user-scalable=3Dno">
+<title>The Writer's Block</title>
+<link rel=3D"manifest" href=3D"file:///C:/Users/micahb/AppData/Local/Temp/1=
+d66cd03-8c56-4f65-adc7-785fc8a58674_WritersBlock-1.0.3%20(2).zip.674/Writer=
+sBlock-1.0.3/manifest.json">
+
+</head>
+<body class=3D"monospace-mode dark-mode">
+    =20
+    <div id=3D"aboutBox">
+        <h3>About WritersBlock</h3>
+        <p><a href=3D"https://creativecommons.org/publicdomain/zero/1.0/" t=
+arget=3D"_blank" rel=3D"noopener noreferrer">CC0 1.0 Universal</a><br>This =
+work has been dedicated to the public domain by its author.</p><p>Version 1=
+.0.3</p>
+        <p>A simple, distraction-free word processor.</p>
+        <button type=3D"abt" id=3D"closeAboutBtn">Close</button>
+    </div>
+
+    <div id=3D"saveAsModal" style=3D"display: none; position: fixed; top: 5=
+0%; left: 50%; transform: translate(-50%, -50%); background-color: #f9f9f9;=
+ border: 1px solid #ccc; padding: 20px; box-shadow: 0 4px 8px rgba(0, 0, 0,=
+ 0.1); z-index: 1001;">
+        <h3>Save As</h3>
+        <label for=3D"filenameInput">Filename:</label>
+        <input type=3D"text" id=3D"filenameInput" value=3D"document">
+        <div style=3D"margin-top: 10px; display: flex; justify-content: fle=
+x-end; gap: 10px;">
+            <button type=3D"button" id=3D"saveAsConfirmBtn">Save</button>
+            <button type=3D"button" id=3D"saveAsCancelBtn">Cancel</button>
+        </div>
+    </div>
+    <div id=3D"modalBackdrop" style=3D"display: none; position: fixed; top:=
+ 0; left: 0; width: 100%; height: 100%; background-color: rgba(0, 0, 0, 0.5=
+); z-index: 1000;"></div>
+
+  <div id=3D"toolbar" role=3D"toolbar" aria-label=3D"Text editor controls">
+    <div style=3D"display: flex; align-items: center; gap: 8px;">
+    <button type=3D"button" id=3D"newBtn" title=3D"New (Ctrl+N)" aria-label=
+=3D"New document">
+      <svg viewBox=3D"0 0 24 24"><path d=3D"M3 3h18v2H3V3zm0 16h18v2H3v-2zm=
+5-9h8v2H8v-2z"></path></svg>
+    </button>
+    <button type=3D"button" id=3D"openBtn" title=3D"Open (Ctrl+O)" aria-lab=
+el=3D"Open file">
+      <svg viewBox=3D"0 0 24 24"><path d=3D"M20 6v12H4V6h16m0-2H4c-1.1 0-2 =
+.9-2 2v12a2 2 0 002 2h16a2 2 0 002-2V6c0-1.1-.9-2-2-2zM8 12l4-4 4 4H8z"></p=
+ath></svg>
+    </button>
+    <button type=3D"button" id=3D"saveBtn" title=3D"Save (Ctrl+S)" aria-lab=
+el=3D"Save file">
+      <svg viewBox=3D"0 0 24 24"><path d=3D"M17 3H7c-1.1 0-2 .9-2 2v14a2 2 =
+0 002 2h10c1.1 0 2-.9 2-2V7l-4-4zM7 19V5h8v4h-3v6H7z"></path></svg>
+    </button>
+    <div style=3D"border-left: 1px solid #ccc; height: 20px; margin: 0 10px=
+;"></div>
+    <button type=3D"button" id=3D"decreaseFontBtn" title=3D"Decrease font s=
+ize" aria-label=3D"Decrease font size">A</button>
+    <button type=3D"button" id=3D"increaseFontBtn" title=3D"Increase font s=
+ize" aria-label=3D"Increase font size">A</button>
+    <div style=3D"border-left: 1px solid #ccc; height: 20px; margin: 0 10px=
+;"></div>
+    <button type=3D"button" id=3D"fontSpaceBtn" title=3D"Switch to Proporti=
+onal Font" aria-label=3D"Switch to Proportional Font" style=3D"font-weight:=
+ bold; font-size: 20px;">M/P</button>
+    <div style=3D"border-left: 1px solid #ccc; height: 20px; margin: 0 10px=
+;"></div>
+    <button type=3D"button" id=3D"darkModeToggle" title=3D"Toggle Dark Mode=
+" aria-label=3D"Toggle Dark Mode" tabindex=3D"0">
+        <!-- Crescent moon icon -->
+       <svg viewBox=3D"0 0 24 24">
+          <path d=3D"M 12,0 A 8 8 0 1 0 12, 24 A 14 14 0 0 1 12, 0"></path>
+       </svg>
+    </button>
+    </div>
+    <div>
+    <button type=3D"button" id=3D"aboutBtn" title=3D"About Writer's Block" =
+aria-label=3D"About WB">WB</button>
+    </div>
+  </div>
+=20
+ =20
+ =20
+  <div id=3D"editor" contenteditable=3D"true" spellcheck=3D"true" aria-labe=
+l=3D"Document text editor" role=3D"textbox" aria-multiline=3D"true" style=
+=3D"font-size: 18px;"></div>
+
+  <input type=3D"file" id=3D"fileInput" accept=3D".txt,.html" style=3D"disp=
+lay:none">
+
+ =20
+
+
+</body></html>
+------MultipartBoundary--eoPWtTaXNvoW5QUeai9xjWYW6S0myT6kFrnjyX2WyI----
+Content-Type: text/css
+Content-Transfer-Encoding: quoted-printable
+Content-Location: cid:css-551cd22e-fe41-4326-ac8c-2050d6e5ae6a@mhtml.blink
+
+@charset "utf-8";
+
+* { box-sizing: border-box; }
+
+body, html { margin: 0px; padding: 0px; background: rgb(242, 240, 239); fon=
+t-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif; color: rgb(34, 3=
+4, 34); display: flex; flex-direction: column; height: 100vh; user-select: =
+text; transition: background-color 0.3s, color 0.3s; }
+
+#toolbar { background-color: rgba(255, 255, 255, 0.867); border-bottom: 1px=
+ solid rgb(204, 204, 204); padding: 6px 10px; display: flex; align-items: c=
+enter; gap: 8px; position: sticky; top: 0px; z-index: 10; backdrop-filter: =
+saturate(180%) blur(8px); transition: background-color 0.3s, border-color 0=
+.3s; justify-content: space-between; }
+
+button { background: none; border: none; cursor: pointer; padding: 6px 8px;=
+ font-size: 16px; border-radius: 4px; transition: background-color 0.15s, c=
+olor 0.3s; display: flex; align-items: center; justify-content: center; col=
+or: rgb(51, 51, 51); }
+
+button:hover { background-color: rgb(224, 224, 224); }
+
+button:focus { outline-offset: 2px; }
+
+button svg { width: 18px; height: 18px; fill: currentcolor; transition: fil=
+l 0.3s; }
+
+#aboutBtn { font-weight: 900; font-size: 24px; }
+
+#decreaseFontBtn, #increaseFontBtn { font-family: Arial, sans-serif; line-h=
+eight: 1; user-select: none; }
+
+#decreaseFontBtn { font-weight: 100; font-size: 18px; }
+
+#increaseFontBtn { font-weight: 900; font-size: 24px; }
+
+#editor { flex: 1 1 0%; padding: 15px 20px; font-size: 18px; line-height: 1=
+.5; overflow-y: auto; background-color: transparent; outline: none; white-s=
+pace: pre-wrap; overflow-wrap: break-word; max-height: 100%; margin: 0px au=
+to; width: 100%; max-width: 100vw; transition: background-color 0.3s, color=
+ 0.3s; color: inherit; }
+
+.monospace-mode #editor { font-family: "monospace", Consolas, "Courier New"=
+, Monaco, sans-serif; font-weight: 800; }
+
+body.dark-mode { background-color: rgb(0, 51, 0); color: rgb(0, 153, 0); }
+
+body.dark-mode #toolbar { background-color: rgba(0, 51, 0, 0.9); border-bot=
+tom-color: rgb(0, 153, 0); }
+
+body.dark-mode #toolbar button:hover { background-color: rgba(0, 77, 0, 0.6=
+); }
+
+body.dark-mode button { color: rgb(0, 153, 0); }
+
+body.dark-mode button svg { fill: currentcolor; }
+
+body.dark-mode #editor { color: rgb(0, 153, 0); }
+
+body.dark-mode #darkModeToggle { color: rgb(0, 153, 0); }
+
+#darkModeToggle { color: inherit; }
+
+#darkModeToggle:hover { background-color: rgb(224, 224, 224); }
+
+#darkModeToggle:focus { outline: none; }
+
+#darkModeToggle svg { display: block; }
+
+@media (max-width: 600px) {
+  #toolbar { padding: 4px 8px; gap: 5px; font-size: 14px; }
+  button { padding: 5px 6px; font-size: 14px; }
+  #editor { font-size: 16px; padding: 10px 12px; }
+  #decreaseFontBtn { font-size: 16px; }
+  #increaseFontBtn { font-size: 20px; }
+}
+
+#aboutBox { background-color: rgb(204, 204, 204); border: 1px solid rgb(204=
+, 204, 204); display: none; flex-direction: column; justify-content: flex-e=
+nd; position: fixed; top: 50%; left: 50%; transform: translate(-50%, -50%);=
+ padding: 20px; box-shadow: rgba(0, 0, 0, 0.3) 2px 2px 5px; z-index: 1000; =
+border-radius: 5px; max-width: 50%; }
+
+#aboutBox h3 { margin-top: 0px; align-self: flex-start; }
+
+#aboutBox p { align-self: flex-start; }
+
+#closeAboutBtn { background: none; border: 1px solid rgb(0, 0, 0); outline:=
+ rgb(0, 0, 0) solid 1px; cursor: pointer; padding: 8px 12px; font-size: 14p=
+x; font-weight: 200; border-radius: 4px; transition: background-color 0.15s=
+; align-self: flex-end; }
+
+#closeAboutBtn:hover { background-color: rgb(204, 204, 204); }
+
+body.dark-mode #aboutBox { background-color: rgb(204, 204, 204) !important;=
+ border-color: rgb(204, 204, 204) !important; color: rgb(34, 34, 34) !impor=
+tant; }
+
+body.dark-mode #aboutBox h3 { color: rgb(51, 51, 51) !important; }
+
+body.dark-mode #aboutBox p { color: rgb(68, 68, 68) !important; }
+
+body.dark-mode #closeAboutBtn { background-color: rgb(204, 204, 204) !impor=
+tant; color: rgb(0, 0, 0) !important; border-color: rgb(0, 0, 0) !important=
+; }
+
+body.dark-mode #closeAboutBtn:hover { background-color: rgb(204, 204, 204) =
+!important; }
+------MultipartBoundary--eoPWtTaXNvoW5QUeai9xjWYW6S0myT6kFrnjyX2WyI------
